@@ -1,0 +1,42 @@
+{
+  "name": "draftbot",
+  "version": "4.0.0",
+  "description": "DraftMan Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "draftman",
+    "commando"
+  ],
+  "author": "DraftMan",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "better-sqlite3": "^5.3.0",
+    "common-tags": "^1.8.0",
+    "dblapi.js": "^2.3.0",
+    "discord.js": "git+https://github.com/Favna/discord.js.git",
+    "discord.js-commando": "git+https://github.com/DraftFiles/Commando.git",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "ffmpeg": "0.0.4",
+    "fuse.js": "^3.3.0",
+    "jimp": "^0.3.11",
+    "jsdom": "^13.1.0",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "musicmatch": "^0.3.2",
+    "node-fetch": "^2.3.0",
+    "node-opus": "^0.3.1",
+    "simple-youtube-api": "^5.1.1",
+    "snekfetch": "^4.0.4",
+    "steamapi": "^2.0.5",
+    "string-pixel-width": "^1.9.0",
+    "to-markdown": "^3.1.1",
+    "weather-js": "git+https://github.com/DraftFiles/weather.git",
+    "ytdl-core": "^0.25.2"
+  }
+}
